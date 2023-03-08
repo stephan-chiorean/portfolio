@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import airbnb from '../assets/projects/airbnb.png';
-import nft from '../assets/projects/nft.png';
+import nft from '../assets/projects/NFT.png';
 import verified from '../assets/projects/verifiedvoices.png';
 import pitchit from '../assets/projects/pitchit.png';
 import fleetman from '../assets/projects/fleetman.png';
