@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import Profile from '../assets/about.jpeg';
 import { isSafari } from 'react-device-detect';
-import resume from '../assets/portfolioResume.pdf';
 
 type Props = {};
 
@@ -44,7 +43,7 @@ function About({}: Props) {
           I have been engineering software applications for 6 years. My expertise lies in building scalable, reliable, and maintainable applications in fast-paced, high energy environments. I combine sophisticated software technology with business insights to create and deliver effective products, and I love working on projects
           that I believe can change the world.
         </p>
-        <a href={resume} download>
+        <a href={'/portfolioResume.pdf'} download>
           <button className='bg-[#F7AB0A] text-black py-2 px-4 rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out'>
             Download Resume
           </button>
