@@ -29,7 +29,6 @@ import RedisPhoto from '../assets/tech/redis.png';
 import SwrPhoto from '../assets/tech/swr.png';
 
 const projectos = [messenger, nft, verified, pitchit, fleetman];
-const links = ['https://www.github.com/stephan-chiorean/messenger-clone', 'https://www.github.com/stephan-chiorean','https://www.github.com/stephan-chiorean','https://www.github.com/stephan-chiorean','https://www.github.com/stephan-chiorean']
 // How to build a beautiful Date and Calendar Functionality where you can book a listing just like Airbnb!
 // 👉 How to build a Search Functionality that instantly displays all the listings with the speed of Next.js!
 // 👉 How to use Tailwind CSS to build a beautiful carasoul, loading bars and lots of of good UI / UX design implementations!
@@ -89,7 +88,7 @@ function Projects({}: Props) {
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
-            <a href={links[i]}>
+            <a href='http://www.github.com/stephan-chiorean'>
               <img
                 src={projectos[i].src}
                 alt=''
