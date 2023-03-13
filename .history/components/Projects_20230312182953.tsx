@@ -33,7 +33,7 @@ import WebhookPhoto from '../assets/tech/webhooks.png';
 import StripePhoto from '../assets/tech/stripe.png';
 import FirebasePhoto from '../assets/tech/firebase.png';
 import JavaScriptPhoto from '../assets/tech/javascript.png';
-import MongoDBPhoto from '../assets/tech/mongo.png';
+import MongoDBPhoto from '../assets/tech/mongodb.png';
 import CSSPhoto from '../assets/tech/css.png';
 import travel from '../assets/projects/travelnow.jpeg';
 
@@ -98,7 +98,7 @@ const names = [
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5, 6];
+  const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
       initial={{ opacity: 0 }}

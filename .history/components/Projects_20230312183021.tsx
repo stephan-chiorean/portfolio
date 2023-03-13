@@ -98,7 +98,7 @@ const names = [
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5, 6];
+  const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
       initial={{ opacity: 0 }}

@@ -32,13 +32,9 @@ import SwrPhoto from '../assets/tech/swr.png';
 import WebhookPhoto from '../assets/tech/webhooks.png';
 import StripePhoto from '../assets/tech/stripe.png';
 import FirebasePhoto from '../assets/tech/firebase.png';
-import JavaScriptPhoto from '../assets/tech/javascript.png';
-import MongoDBPhoto from '../assets/tech/mongo.png';
-import CSSPhoto from '../assets/tech/css.png';
-import travel from '../assets/projects/travelnow.jpeg';
 
-const projectos = [market, messenger, verified, pitchit, fleetman, travel];
-const links = ['https://www.github.com/stephan-chiorean/marketplace-app', 'https://www.github.com/stephan-chiorean/messenger-clone','https://github.com/TeamMEWTU/VerifiedVoices','https://github.com/Pitch-It/PitchIt-Project-Management','https://github.com/stephan-chiorean/Delivery-Application', 'https://github.com/ctri-12-Goblin-shark/Travel-App']
+const projectos = [market, messenger, verified, pitchit, fleetman];
+const links = ['https://www.github.com/stephan-chiorean/marketplace-app', 'https://www.github.com/stephan-chiorean/messenger-clone','https://github.com/TeamMEWTU/VerifiedVoices','https://github.com/Pitch-It/PitchIt-Project-Management','https://github.com/stephan-chiorean/Delivery-Application']
 // How to build a beautiful Date and Calendar Functionality where you can book a listing just like Airbnb!
 // 👉 How to build a Search Functionality that instantly displays all the listings with the speed of Next.js!
 // 👉 How to use Tailwind CSS to build a beautiful carasoul, loading bars and lots of of good UI / UX design implementations!
@@ -79,11 +75,6 @@ const stacks = [
     ElasticPhoto,
     KibanaPhoto,
   ],
-  [JavaScriptPhoto,
-    ReactPhoto,
-    MongoDBPhoto,
-    CSSPhoto,
-  ]
 ];
 
 const names = [
@@ -92,13 +83,12 @@ const names = [
   'Verified Voices',
   'Pitch-It',
   'MyDelivery',
-  'TravelNow'
 ];
 
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5, 6];
+  const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
       initial={{ opacity: 0 }}
