@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'clouds': "url(/public/clouds.svg)",
+      }
+    },
   },
   plugins: [require("tailwind-scrollbar")],
 }

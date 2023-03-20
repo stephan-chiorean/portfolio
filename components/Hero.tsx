@@ -30,8 +30,8 @@ function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-central overflow-hidden'>
       <BackgroundCircles />
-      <div style={{ marginTop: '-50px' }}>
-        <h2 className='text-[10px] md:text-sm uppercase text-slate-700 tracking-[8px] md:tracking-[15px]'>
+      <div style={{ marginTop: '-50px', zIndex: 50 }}>
+        <h2 className='text-[10px] md:text-sm uppercase text-slate-900 tracking-[8px] md:tracking-[15px]'>
           Software Engineer
         </h2>
         <img
@@ -40,9 +40,9 @@ function Hero({}: Props) {
           alt='profile'
         />
       </div>
-      <h1 className='text-3xl md:text-5xl lg:text-6xl font-semibold px-10'>
+      <h1 className='text-3xl md:text-5xl lg:text-6xl font-semibold px-10 z-50'>
         <span className='mr-3'>{text}</span>
-        <Cursor cursorColor='gray' />
+        <Cursor cursorColor='black' />
       </h1>
       <div className="pt-5" style={{zIndex:"30"}}>
         <Link href="#about">

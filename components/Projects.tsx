@@ -36,14 +36,24 @@ import JavaScriptPhoto from '../assets/tech/javascript.png';
 import MongoDBPhoto from '../assets/tech/mongo.png';
 import CSSPhoto from '../assets/tech/css.png';
 import travel from '../assets/projects/travelnow.jpeg';
+import GooglePhoto from '../assets/tech/google.png';
+import DockerPhoto from '../assets/tech/docker.png';
+import vaas from '../assets/projects/Vaas.gif';
+import ApolloPhoto from '../assets/tech/apollo.png'
+import ExpoPhoto from '../assets/tech/expo.png';
+import ups from '../assets/projects/ups.jpeg';
 
-const projectos = [market, messenger, verified, pitchit, fleetman, travel];
-const links = ['https://www.github.com/stephan-chiorean/marketplace-app', 'https://www.github.com/stephan-chiorean/messenger-clone','https://github.com/TeamMEWTU/VerifiedVoices','https://github.com/Pitch-It/PitchIt-Project-Management','https://github.com/stephan-chiorean/Delivery-Application', 'https://github.com/ctri-12-Goblin-shark/Travel-App']
-// How to build a beautiful Date and Calendar Functionality where you can book a listing just like Airbnb!
-// 👉 How to build a Search Functionality that instantly displays all the listings with the speed of Next.js!
-// 👉 How to use Tailwind CSS to build a beautiful carasoul, loading bars and lots of of good UI / UX design implementations!
-// 👉 How to use Mapbox to display the exact location of all the listings
+const projectos = [vaas, market, ups, messenger, verified, pitchit, fleetman, travel];
+const links = ['http://vaas.dev', 'https://www.github.com/stephan-chiorean/marketplace-app', 'https://github.com/stephan-chiorean/native-delivery', 'https://www.github.com/stephan-chiorean/messenger-clone','https://github.com/TeamMEWTU/VerifiedVoices','https://github.com/Pitch-It/PitchIt-Project-Management','https://github.com/stephan-chiorean/Delivery-Application', 'https://github.com/ctri-12-Goblin-shark/Travel-App']
 const stacks = [
+  [
+    ReactPhoto,
+    ReduxPhoto,
+    TypeScriptPhoto,
+    KubePhoto,
+    DockerPhoto,
+    NodePhoto,
+  ],
   [
     ReactPhoto,
     ReduxPhoto,
@@ -52,6 +62,15 @@ const stacks = [
     WebhookPhoto,
     FirebasePhoto,
     StripePhoto,
+  ],
+  [
+    ReactPhoto,
+    GraphQlPhoto,
+    TailwindPhoto,
+    FirebasePhoto,
+    StripePhoto,
+    ApolloPhoto,
+    ExpoPhoto
   ],
   [
     TypeScriptPhoto,
@@ -87,7 +106,9 @@ const stacks = [
 ];
 
 const names = [
+  'VaaS',
   'Market',
+  'Shipper (iOS)',
   'Messenger Clone',
   'Verified Voices',
   'Pitch-It',
@@ -98,7 +119,7 @@ const names = [
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5, 6];
+  const projects = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <motion.div
       initial={{ opacity: 0 }}

@@ -37,7 +37,7 @@ function About({}: Props) {
           once: true,
         }}
         transition={shouldAnimate ? { duration: 1.4 } : {}}
-        className='space-y-10 px-0 md:px-10'
+        className='space-y-10 px-0 md:px-10 py-5 md:py-10 md:mx-5 bg-white/80'
       >
         {shouldRenderP && (
           <p className='text-base'>

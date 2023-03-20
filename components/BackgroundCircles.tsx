@@ -16,7 +16,7 @@ function BackgroundCircles({}: Props) {
       transition={{
         duration: 1.3,
       }} 
-      className='rounded-full border-4 box-border border-[#F7AB0A] h-[650px] w-[650px] absolute mt-52 shadow-2xl' style={{boxShadow: '0px 0px 50px rgba(247, 171, 10, 1)' }}>
+      className='rounded-full border-4 box-border border-[#F7AB0A] bg-white/60 h-[650px] w-[650px] absolute mt-52 shadow-2xl' style={{boxShadow: '0px 0px 50px rgba(247, 171, 10, 1)' }}>
       </motion.div>
     </div>
   );

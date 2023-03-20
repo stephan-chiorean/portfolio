@@ -73,7 +73,7 @@ function Skill({directionLeft, skill}: Props) {
             }}
             src={skillPhotos[skill].src}
             alt=""
-            className="rounded-full border-2 border-[#F7AB0A] object-contain p-1 h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale ease-in-out"
+            className="rounded-full border-2 border-[#F7AB0A] bg-white/80 object-contain p-1 h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale ease-in-out"
           />
         }
         {shouldRenderPercent && <div className="absolute opacity-0 hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-[#F7AB0A] h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0">

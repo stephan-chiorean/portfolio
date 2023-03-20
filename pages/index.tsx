@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     setShouldRenderHeader(!isMobile);
   }, []);
   return (
-    <div className='bg-[#EEEDFB] h-screen text-slate-700 snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
+    <div className='bg-[#EEEDFB] bg-[url("../public/clouds.svg")] h-screen text-slate-700 snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
       <Head>
         <title>Stephan's Portfolio</title>
         <meta property='og:title' content='Stephan Chiorean' />
