@@ -130,27 +130,26 @@ function Projects({}: Props) {
       <h3 className='absolute top-5 uppercase tracking-[20px] text-slate-700 font-bold text-2xl'>
         Projects
       </h3>
-      <motion.div 
-      initial={{opacity: 1}}
-      whileInView={{opacity:0}}
-      transition={{duration:5}}
-      className="absolute top-[70px] uppercase tracking-[5px] md:tracking-[10px] font-semibold text-slate-700 text-xl">
-        Scroll for more &#10132;
-      </motion.div>
-      <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
+      <h3 className="absolute top-13 uppercase tracking-[5px] md:tracking-[10px] font-semibold text-slate-700 text-xl">
+        Scroll &#10132;
+      </h3>
+      <div className='relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
-          <div id="track" className='w-full flex-shrink-0 border-15 border-red-500 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
+          <div id="track" className='absolute w-screen flex-shrink-0 border-15 border-red-500 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10 h-screen'>
             <a href={links[i]}>
               <img
                 src={projectos[i].src}
                 alt=''
-                className='h-[200px] w-[800px] md:h-[500px] md:w-[1000px] object-cover cursor-pointer'
+                className='h-[200px] w-[800px] md:h-80 md:w-160 object-cover cursor-pointer'
               />
             </a>
             <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
               <h4 className='text-4xl font-semibold text-center text-black'>
                 {names[i]}
               </h4>
+              {/* <p className='text-lg text-center border-2 border-[#F7AB0A] p-5 bg-[#f7ebd3fe] z-30 rounded-md'>
+                This is the app name{' '}
+              </p> */}
               <div className='flex justify-evenly space-x-3 md:space-x-5 my-2 border-[#F7AB0A] p-5 bg-transparent md:bg-[#f7ebd3fe] z-30 rounded-md'>
                 {stacks[i].map((element, index) => (
                   <img
@@ -163,7 +162,7 @@ function Projects({}: Props) {
           </div>
         ))}
       </div>
-      <div className='w-full absolute top-[30%] bg-[#F7AB0A] left-0 h-[50vh] -skew-y-12 z-[-1]' />
+      <div className='w-full absolute top-[30%] bg-[#F7AB0A] left-0 h-[50vh] -skew-y-12' />
     </motion.div>
   );
 }

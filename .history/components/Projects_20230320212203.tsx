@@ -151,6 +151,9 @@ function Projects({}: Props) {
               <h4 className='text-4xl font-semibold text-center text-black'>
                 {names[i]}
               </h4>
+              {/* <p className='text-lg text-center border-2 border-[#F7AB0A] p-5 bg-[#f7ebd3fe] z-30 rounded-md'>
+                This is the app name{' '}
+              </p> */}
               <div className='flex justify-evenly space-x-3 md:space-x-5 my-2 border-[#F7AB0A] p-5 bg-transparent md:bg-[#f7ebd3fe] z-30 rounded-md'>
                 {stacks[i].map((element, index) => (
                   <img
@@ -163,7 +166,7 @@ function Projects({}: Props) {
           </div>
         ))}
       </div>
-      <div className='w-full absolute top-[30%] bg-[#F7AB0A] left-0 h-[50vh] -skew-y-12 z-[-1]' />
+      {/* <div className='w-full absolute top-[30%] bg-[#F7AB0A] left-0 h-[50vh] -skew-y-12 z-[-1]' /> */}
     </motion.div>
   );
 }
