@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import Profile from '../assets/singapore.jpeg';
+import Profile from '../assets/astro.jpeg';
 import { isSafari } from 'react-device-detect';
 import { useState, useEffect } from 'react';
 import { isMobile } from 'react-device-detect';

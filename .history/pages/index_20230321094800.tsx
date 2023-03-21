@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     //9FB4F9
-    <div className='bg-[#CECEFC] bg-[url("../public/newsvg.svg")] h-screen text-slate-700 snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
+    <div className='bg-[#F3F6F7] bg-[url("../public/newsvg.svg")] h-screen text-slate-700 snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
       <Head>
         <title>Stephan's Portfolio</title>
         <meta property='og:title' content='Stephan Chiorean' />
@@ -40,16 +40,16 @@ const Home: NextPage = () => {
         <About />
       </section>
 
+      <section id='experience' className='snap-center'>
+        <Experience />
+      </section>
+
       <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
       <section id='projects' className='snap-start'>
         <Projects />
-      </section>
-
-      <section id='experience' className='snap-center'>
-        <Experience />
       </section>
 
       <section id='contact' className='snap-start'>
