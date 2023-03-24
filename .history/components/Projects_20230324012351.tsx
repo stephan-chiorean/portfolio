@@ -148,6 +148,13 @@ function Projects({}: Props) {
       <h3 className='absolute top-5 uppercase tracking-[20px] text-slate-700 font-bold text-2xl'>
         Projects
       </h3>
+      <motion.div 
+      initial={{opacity: 1}}
+      whileInView={{opacity:0}}
+      transition={{duration:5}}
+      className="absolute top-[70px] uppercase tracking-[5px] md:tracking-[10px] font-semibold text-slate-700 text-xl">
+        &#10132;
+      </motion.div>
       <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div id="track" className='w-full flex-shrink-0 border-15 border-red-500 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>

@@ -55,7 +55,7 @@ function Skill({directionLeft, skill}: Props) {
           /> :
           <motion.img
             initial={{
-              x: directionLeft ? -120 : 120,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
             }}
             whileInView={{
