@@ -162,14 +162,14 @@ function Projects({}: Props) {
               <h4 className='text-4xl font-semibold uppercase tracking-[10px] text-center text-technology-primary'>
                 {names[i]}
               </h4>
-            </div>
-            <div className='flex justify-center space-x-3 md:space-x-5 my-2 p-5 bg-[#f7ebd3fe] z-30 rounded-md'>
-              {stacks[i].map((element, index) => (
-                <img
-                  src={stacks[i][index].src}
-                  className='w-10 h-10 md:w-15 md:h-15 object-contain'
-                />
-              ))}
+              <div className='flex space-x-3 md:space-x-5 my-2 border-[#F7AB0A] p-5 bg-[#f7ebd3fe] z-30 rounded-md'>
+                {stacks[i].map((element, index) => (
+                  <img
+                    src={stacks[i][index].src}
+                    className='w-10 h-10 md:w-15 md:h-15 object-contain'
+                  />
+                ))}
+              </div>
             </div>
           </div>
         ))}
