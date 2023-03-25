@@ -16,7 +16,7 @@ module.exports = {
         },
         technology: {
           DEFAULT: "#02a9f7",
-          primary: "#d4f0fc",
+          primary: "#d4f04c",
           secondary: "#89d6fb",
           dark: "#02577a",
           xdark: "#01303f",

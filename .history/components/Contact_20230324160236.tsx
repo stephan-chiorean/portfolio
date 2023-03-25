@@ -34,7 +34,7 @@ function Contact({}: Props) {
       transition={{ duration: 1.5 }}
       className='h-screen flex relative flex-col text-technology-primary text-center md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'
     >
-      <h3 className='absolute top-10 uppercase tracking-[20px] text-technology-primary font-bold text-2xl'>
+      <h3 className='absolute top-10 uppercase tracking-[20px] text-slate-700 font-bold text-2xl'>
         Contact
       </h3>
       <div className='flex flex-col space-y-10'>

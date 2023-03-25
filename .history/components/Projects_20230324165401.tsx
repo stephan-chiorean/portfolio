@@ -157,6 +157,7 @@ function Projects({}: Props) {
                 alt=''
                 className='h-[200px] w-[800px] md:h-[600px] md:w-[1400px] object-contain cursor-pointer'
               />
+              <div className="absolute h-[600px] w-[600px] opacity-0 hover:opacity-80 bg-technology"></div>
             </a>
             <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
               <h4 className='text-4xl font-semibold uppercase tracking-[10px] text-center text-technology-primary'>

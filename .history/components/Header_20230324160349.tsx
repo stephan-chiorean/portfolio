@@ -25,22 +25,22 @@ function Header({}: Props) {
       className='flex flex-row items-center cursor-pointer'>
         <SocialIcon
           url='http://www.linkedin.com/in/stephan-chiorean'
-          fgColor='#89d6fb'
+          fgColor='technology'
           bgColor='transparent'
         />
         <SocialIcon
           url='http://www.github.com/stephan-chiorean'
-          fgColor='#89d6fb'
+          fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
           url='http://www.instagram.com/stephan.tc/'
-          fgColor='#89d6fb'
+          fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
           url='http://twitter.com/ChioreanStevie'
-          fgColor='#89d6fb'
+          fgColor='gray'
           bgColor='transparent'
         />
       </motion.div>
@@ -50,10 +50,10 @@ function Header({}: Props) {
         <SocialIcon
           className='cursor-pointer'
           network='email'
-          fgColor='#89d6fb'
+          fgColor='gray'
           bgColor='transparent'
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-technology-secondary">Get in Touch</p>
+        <p className="uppercase hidden md:inline-flex text-sm text-gray-500">Get in Touch</p>
       </div>
       </Link>
     </header>

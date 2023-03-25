@@ -4,7 +4,6 @@ import Profile from '../assets/singapore.jpeg';
 import { isSafari } from 'react-device-detect';
 import { useState, useEffect } from 'react';
 import { isMobile } from 'react-device-detect';
-import Link from 'next/link';
 
 type Props = {};
 
@@ -65,15 +64,12 @@ function About({}: Props) {
           deliver effective products, and I love working on projects that I
           believe can change the world.
         </p>
-        <div className="flex space-x-10">
+        <div>
           <a href={'/portfolioResume.pdf'} download>
-            <button className='bg-technology text-technology-xdark text-xl py-2 px-4 rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out'>
+            <button className='bg-[#F7AB0A] text-black py-2 px-4 rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out'>
               Download Resume
             </button>
           </a>
-          <Link 
-          className="bg-technology text-technology-xdark py-2 px-4 text-xl rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out"
-          href="https://blog-seven-woad-40.vercel.app">Personal Blog</Link>
         </div>
       </motion.div>
     </div>

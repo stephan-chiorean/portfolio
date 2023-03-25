@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     //9FB4F9
-    <div className='bg-technology-dark bg-[url("../public/newsvg.svg")] h-screen text-technology-xdark snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
+    <div className='bg-technology-dark bg-[url("../public/newsvg.svg")] h-screen text-technology-dark snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
       <Head>
         <title>Stephan's Portfolio</title>
         <meta property='og:title' content='Stephan Chiorean' />

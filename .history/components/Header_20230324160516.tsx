@@ -53,7 +53,7 @@ function Header({}: Props) {
           fgColor='#89d6fb'
           bgColor='transparent'
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-technology-secondary">Get in Touch</p>
+        <p className="uppercase hidden md:inline-flex text-sm text-gray-500">Get in Touch</p>
       </div>
       </Link>
     </header>

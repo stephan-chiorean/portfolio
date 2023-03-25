@@ -40,38 +40,23 @@ import travel from '../assets/projects/travelnow.jpeg';
 import GooglePhoto from '../assets/tech/google.png';
 import DockerPhoto from '../assets/tech/docker.png';
 import vaas from '../assets/projects/Vaas.gif';
-import ApolloPhoto from '../assets/tech/apollo.png';
+import ApolloPhoto from '../assets/tech/apollo.png'
 import ExpoPhoto from '../assets/tech/expo.png';
 import ups from '../assets/projects/ups.jpeg';
 import blog from '../assets/projects/blog.jpeg';
 import zuum from '../assets/projects/zuum.png';
 
-const projectos = [
-  vaas,
-  market,
-  blog,
-  zuum,
-  ups,
-  messenger,
-  verified,
-  pitchit,
-  fleetman,
-  travel,
-];
-const links = [
-  'http://vaas.dev',
-  'https://www.github.com/stephan-chiorean/marketplace-app',
-  'https://github.com/stephan-chiorean/blog',
-  'https://github.com/stephan-chiorean/zuum',
-  'https://github.com/stephan-chiorean/native-delivery',
-  'https://www.github.com/stephan-chiorean/messenger-clone',
-  'https://github.com/TeamMEWTU/VerifiedVoices',
-  'https://github.com/Pitch-It/PitchIt-Project-Management',
-  'https://github.com/stephan-chiorean/Delivery-Application',
-  'https://github.com/ctri-12-Goblin-shark/Travel-App',
-];
+const projectos = [vaas, market, blog, zuum, ups, messenger, verified, pitchit, fleetman, travel];
+const links = ['http://vaas.dev', 'https://www.github.com/stephan-chiorean/marketplace-app', 'https://github.com/stephan-chiorean/blog','https://github.com/stephan-chiorean/zuum','https://github.com/stephan-chiorean/native-delivery', 'https://www.github.com/stephan-chiorean/messenger-clone','https://github.com/TeamMEWTU/VerifiedVoices','https://github.com/Pitch-It/PitchIt-Project-Management','https://github.com/stephan-chiorean/Delivery-Application', 'https://github.com/ctri-12-Goblin-shark/Travel-App']
 const stacks = [
-  [ReactPhoto, ReduxPhoto, TypeScriptPhoto, KubePhoto, DockerPhoto, NodePhoto],
+  [
+    ReactPhoto,
+    ReduxPhoto,
+    TypeScriptPhoto,
+    KubePhoto,
+    DockerPhoto,
+    NodePhoto,
+  ],
   [
     ReactPhoto,
     ReduxPhoto,
@@ -81,8 +66,19 @@ const stacks = [
     FirebasePhoto,
     StripePhoto,
   ],
-  [ReactPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
-  [ReactPhoto, NextPhoto, TailwindPhoto, ReduxPhoto, GooglePhoto],
+  [
+    ReactPhoto,
+    NextPhoto,
+    TailwindPhoto,
+    SanityPhoto
+  ],
+  [
+    ReactPhoto,
+    NextPhoto,
+    TailwindPhoto,
+    ReduxPhoto,
+    GooglePhoto
+  ],
   [
     ReactPhoto,
     GraphQlPhoto,
@@ -90,7 +86,7 @@ const stacks = [
     FirebasePhoto,
     StripePhoto,
     ApolloPhoto,
-    ExpoPhoto,
+    ExpoPhoto
   ],
   [
     TypeScriptPhoto,
@@ -118,7 +114,11 @@ const stacks = [
     ElasticPhoto,
     KibanaPhoto,
   ],
-  [JavaScriptPhoto, ReactPhoto, MongoDBPhoto, CSSPhoto],
+  [JavaScriptPhoto,
+    ReactPhoto,
+    MongoDBPhoto,
+    CSSPhoto,
+  ]
 ];
 
 const names = [
@@ -131,7 +131,7 @@ const names = [
   'Verified Voices',
   'Pitch-It',
   'MyDelivery',
-  'TravelNow',
+  'TravelNow'
 ];
 
 type Props = {};

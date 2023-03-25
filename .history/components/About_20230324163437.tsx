@@ -67,12 +67,12 @@ function About({}: Props) {
         </p>
         <div className="flex space-x-10">
           <a href={'/portfolioResume.pdf'} download>
-            <button className='bg-technology text-technology-xdark text-xl py-2 px-4 rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out'>
+            <button className='bg-technology text-technology-dark text-xl py-2 px-4 rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out'>
               Download Resume
             </button>
           </a>
           <Link 
-          className="bg-technology text-technology-xdark py-2 px-4 text-xl rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out"
+          className="bg-technology text-technology-dark py-2 px-4 text-xl rounded-md mt-4 hover:scale-110 transition duration-100 ease-in-out"
           href="https://blog-seven-woad-40.vercel.app">Personal Blog</Link>
         </div>
       </motion.div>
