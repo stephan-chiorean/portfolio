@@ -160,7 +160,7 @@ function Projects({}: Props) {
       <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
-            <div className="flex flex-col items-center md:flex-row space-x-3 space-y-5 md:space-y-0 justify-center -mb-6 md:mb-0">
+            <div className="flex flex-col items-center md:flex-row space-x-3 space-y-5 md:space-y-0 justify-center">
               {i<6 && <Link href={demos[i]} className="px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary">See Demo</Link>}
               <Link href={links[i]} className="px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary">Github</Link>
             </div>
