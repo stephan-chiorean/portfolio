@@ -45,6 +45,7 @@ import ExpoPhoto from '../assets/tech/expo.png';
 import ups from '../assets/projects/ups.jpeg';
 import blog from '../assets/projects/blog.jpeg';
 import zuum from '../assets/projects/zuum.png';
+import Link from 'next/link';
 
 const projectos = [
   vaas,
@@ -70,6 +71,14 @@ const links = [
   'https://github.com/stephan-chiorean/Delivery-Application',
   'https://github.com/ctri-12-Goblin-shark/Travel-App',
 ];
+const demos = [
+  'http://vaas.dev',
+  'https://www.youtube.com/watch?v=-j8DNJoN6WE',
+  'https://www.youtube.com/watch?v=-j8DNJoN6WE',
+  'https://www.youtube.com/watch?v=cNOoobLSYy0',
+  'https://www.youtube.com/watch?v=L-Y32TqMrnM&t=6s',
+  'https://www.youtube.com/watch?v=ub2Au5TahGo&t=18s',
+]
 const stacks = [
   [ReactPhoto, ReduxPhoto, TypeScriptPhoto, KubePhoto, DockerPhoto, NodePhoto],
   [
@@ -125,8 +134,8 @@ const names = [
   'VaaS',
   'Market',
   'Personal Blog',
-  'Zuum (iOS)',
-  'Shipper (iOS)',
+  'Zuum',
+  'Shipper',
   'Messenger Clone',
   'Verified Voices',
   'Pitch-It',
@@ -151,6 +160,10 @@ function Projects({}: Props) {
       <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
+            <div className="flex flex-col md:flex-row space-x-3 justify-center">
+              {i<6 && <Link href={demos[i]} className="px-3 py-2 bg-technology text-technology-xdark text-xl rounded-md hover:bg-technology-secondary">See Demo</Link>}
+              <Link href={links[i]} className="px-3 py-2 bg-technology text-technology-xdark text-xl rounded-md hover:bg-technology-secondary">Github</Link>
+            </div>
             <a href={links[i]}>
               <img
                 src={projectos[i].src}

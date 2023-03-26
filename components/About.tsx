@@ -65,15 +65,15 @@ function About({}: Props) {
           deliver effective products, and I love working on projects that I
           believe can change the world.
         </p>
-        <div className="flex space-x-5 md:space-x-10">
+        <div className="flex space-x-5">
           <a href={'/portfolioResume.pdf'} download>
-            <button className='bg-technology text-technology-xdark md:text-xl py-2 px-4 rounded-md mt-1 md:mt-4 hover:scale-110 transition duration-100 ease-in-out'>
-              Download Resume
+            <button className='bg-technology text-technology-xdark md:text-xl py-2 px-4 rounded-md mt-1 md:mt-4 hover:bg-technology-secondary hover:scale-110 transition duration-100 ease-in-out'>
+              Resume
             </button>
           </a>
           <Link 
-          className="bg-technology text-technology-xdark py-2 px-4 md:text-xl rounded-md mt-1 md:mt-4 hover:scale-110 transition duration-100 ease-in-out"
-          href="https://blog-seven-woad-40.vercel.app">Personal Blog</Link>
+          className="bg-technology text-technology-xdark py-2 px-4 md:text-xl rounded-md mt-1 md:mt-4 hover:bg-technology-secondary hover:scale-110 transition duration-100 ease-in-out"
+          href="https://blog-seven-woad-40.vercel.app">Blog</Link>
         </div>
       </motion.div>
     </div>
