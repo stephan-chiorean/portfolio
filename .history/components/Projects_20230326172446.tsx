@@ -152,7 +152,7 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='h-screen relative overflow-hidden flex text-left md:flex-row max-x-full justify-evenly mx-auto items-center z-0'
+      className='h-screen relative flex text-left md:flex-row max-x-full justify-evenly mx-auto items-center z-0'
     >
       <h3 className='absolute top-5 uppercase tracking-[20px] text-technology-primary font-bold text-2xl'>
         Projects
@@ -160,15 +160,15 @@ function Projects({}: Props) {
       <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
-            <div id="track" className="flex items-center flex-col md:flex-row md:w-[500px] md:space-x-3 space-y-9 md:space-y-0 mb-8 md:mt-10 md:mb-0">
-              {i<6 && <Link href={demos[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary cursor-pointer w-full">See Demo</Link>}
-              <Link href={links[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary cursor-pointer w-full">Github</Link>
-            </div>
+            {/* <div id="track" className="flex items-center flex-col md:flex-row md:space-x-3 space-y-9 md:space-y-0 mb-8 md:mb-0">
+              {i<6 && <Link href={demos[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary w-full">See Demo</Link>}
+              <Link href={links[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary w-full">Github</Link>
+            </div> */}
             <a href={links[i]}>
               <img
                 src={projectos[i].src}
                 alt=''
-                className='h-[200px] w-[800px] md:h-[600px] md:w-[1400px] max-h-[500px] object-contain cursor-pointer'
+                className='h-[200px] w-[800px] md:h-[600px] md:w-[1400px] object-contain cursor-pointer'
               />
             </a>
             <div className='space-y-10 px-10 md:px-10 max-w-6xl'>
