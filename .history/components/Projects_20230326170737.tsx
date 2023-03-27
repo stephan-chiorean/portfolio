@@ -157,7 +157,7 @@ function Projects({}: Props) {
       <h3 className='absolute top-5 uppercase tracking-[20px] text-technology-primary font-bold text-2xl'>
         Projects
       </h3>
-      <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
+      <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A] mb-10 md:mb-0'>
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
             {/* <div id="track" className="flex items-center flex-col md:flex-row md:space-x-3 space-y-9 md:space-y-0 mb-8 md:mb-0">
