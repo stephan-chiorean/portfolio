@@ -157,12 +157,12 @@ function Projects({}: Props) {
       <h3 className='absolute top-5 uppercase tracking-[20px] text-technology-primary font-bold text-2xl'>
         Projects
       </h3>
-      <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A] mb-10 md:mb-0'>
+      <div className='relative w-screen flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-w-8 scrollbar-track-gray-500/30 scrollbar-thumb-[#F7AB0A]'>
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
-            <div id="track" className="flex items-center flex-col md:flex-row md:space-x-3 space-y-9 md:space-y-0 mb-8 md:mb-0">
-              {i<6 && <Link href={demos[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary w-full">See Demo</Link>}
-              <Link href={links[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary w-full">Github</Link>
+            <div id="track" className="flex flex-col md:flex-row space-x-3 space-y-5 md:space-y-0 mb-6 md:mb-0 border-2 border-red-500">
+              {i<6 && <Link href={demos[i]} className="mx-auto md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary">See Demo</Link>}
+              <Link href={links[i]} className="mx-auto md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary flex-grow-1">Github</Link>
             </div>
             <a href={links[i]}>
               <img

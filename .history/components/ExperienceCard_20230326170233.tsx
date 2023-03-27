@@ -97,7 +97,7 @@ function ExperienceCard({ experience }: Props) {
   }, []);
   return (
     <article
-      className='flex flex-col rounded-lg items-center space-y-3 md:space-y-7 flex-shrink-0 w-[350px] md:w-[500px] xl:w-[600px] snap-center bg-white p-5 md:p-10 border-2 border-technology md:border-gray-500 md:hover:border-technology transform transition duration-300 ease-in-out md:hover:scale-110 opacity-100 cursor-pointer max-h-[600px] md:max-h-[670px] overflow-y-scroll md:overflow-y-hidden hover:overflow-y-scroll' style={{zIndex:'30', position:'relative'}}>
+      className='flex flex-col rounded-lg items-center space-y-3 md:space-y-7 flex-shrink-0 w-[350px] md:w-[500px] xl:w-[600px] snap-center bg-white p-5 md:p-10 border-2 border-gray-500 md:hover:border-technology transform transition duration-300 ease-in-out md:hover:scale-110 opacity-100 cursor-pointer max-h-[600px] md:max-h-[670px] overflow-y-scroll md:overflow-y-hidden hover:overflow-y-scroll' style={{zIndex:'30', position:'relative'}}>
       <motion.img
         initial={{
           y: -100,
