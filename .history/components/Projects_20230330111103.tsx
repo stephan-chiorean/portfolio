@@ -47,10 +47,6 @@ import blog from '../assets/projects/blog.jpeg';
 import zuum from '../assets/projects/zuum.png';
 import Link from 'next/link';
 import krypt from '../assets/projects/krypt.jpeg';
-import EthereumPhoto from '../assets/tech/ethereum.png';
-import SolidityPhoto from '../assets/tech/solidity.png';
-import VitePhoto from '../assets/tech/vite.png';
-import EthersPhoto from '../assets/tech/ethers.png';
 
 const projectos = [
   vaas,
@@ -99,7 +95,7 @@ const stacks = [
     StripePhoto,
   ],
   [ReactPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
-  [ReactPhoto, SolidityPhoto, TailwindPhoto, MetaMaskPhoto, EthereumPhoto, VitePhoto],
+  [ReactPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
   [ReactPhoto, NextPhoto, TailwindPhoto, ReduxPhoto, GooglePhoto],
   [
     ReactPhoto,
