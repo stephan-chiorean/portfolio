@@ -51,7 +51,7 @@ import EthereumPhoto from '../assets/tech/ethereum.png';
 import SolidityPhoto from '../assets/tech/solidity.png';
 import VitePhoto from '../assets/tech/vite.png';
 import EthersPhoto from '../assets/tech/ethers.png';
-import NivoPhoto from '../assets/tech/nivo2.jpeg';
+import NivoPhoto from '../assets/tech/nivo.png';
 import MaterialPhoto from '../assets/tech/material.png';
 import dashboard from '../assets/projects/dashboard.jpeg';
 
@@ -104,7 +104,7 @@ const stacks = [
     FirebasePhoto,
     StripePhoto,
   ],
-  [ReactPhoto, ReduxPhoto, MongoDBPhoto, MaterialPhoto, ExpressPhoto, NodePhoto],
+  [ReactPhoto, ReduxPhoto, NivoPhoto, MaterialPhoto, ExpressPhoto, NodePhoto],
   [ReactPhoto, TypeScriptPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
   [ReactPhoto, SolidityPhoto, TailwindPhoto, MetaMaskPhoto, EthereumPhoto, VitePhoto],
   [ReactPhoto, NextPhoto, TailwindPhoto, ReduxPhoto, GooglePhoto],

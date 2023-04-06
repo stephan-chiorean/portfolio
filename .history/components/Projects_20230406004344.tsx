@@ -51,14 +51,10 @@ import EthereumPhoto from '../assets/tech/ethereum.png';
 import SolidityPhoto from '../assets/tech/solidity.png';
 import VitePhoto from '../assets/tech/vite.png';
 import EthersPhoto from '../assets/tech/ethers.png';
-import NivoPhoto from '../assets/tech/nivo2.jpeg';
-import MaterialPhoto from '../assets/tech/material.png';
-import dashboard from '../assets/projects/dashboard.jpeg';
 
 const projectos = [
   vaas,
   market,
-  dashboard,
   blog,
   krypt,
   zuum,
@@ -104,8 +100,7 @@ const stacks = [
     FirebasePhoto,
     StripePhoto,
   ],
-  [ReactPhoto, ReduxPhoto, MongoDBPhoto, MaterialPhoto, ExpressPhoto, NodePhoto],
-  [ReactPhoto, TypeScriptPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
+  [ReactPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
   [ReactPhoto, SolidityPhoto, TailwindPhoto, MetaMaskPhoto, EthereumPhoto, VitePhoto],
   [ReactPhoto, NextPhoto, TailwindPhoto, ReduxPhoto, GooglePhoto],
   [
@@ -149,12 +144,11 @@ const stacks = [
 const names = [
   'VaaS',
   'Market',
-  'Vizionpro',
-  'Blog',
+  'Personal Blog',
   'Krypt',
   'Zuum',
   'Shipper',
-  'Messenger',
+  'Messenger Clone',
   'Verified Voices',
   'Pitch-It',
   'MyDelivery',
@@ -164,7 +158,7 @@ const names = [
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11];
+  const projects = [1, 2, 3, 4, 5, 6, 7, 8, 9, 19];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -179,7 +173,7 @@ function Projects({}: Props) {
         {projects.map((project, i) => (
           <div className='w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-10'>
             <div id="track" className="flex items-center flex-col md:flex-row md:w-[500px] md:space-x-3 space-y-9 md:space-y-0 mb-8 md:mt-10 md:mb-0">
-              {i<8 && <Link href={demos[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary cursor-pointer w-full">See Demo</Link>}
+              {i<7 && <Link href={demos[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary cursor-pointer w-full">See Demo</Link>}
               <Link href={links[i]} className="md:mx-0 px-3 py-2 bg-technology text-center text-technology-xdark text-xl rounded-md hover:bg-technology-secondary cursor-pointer w-full">Github</Link>
             </div>
             <a href={links[i]}>

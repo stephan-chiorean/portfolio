@@ -104,7 +104,7 @@ const stacks = [
     FirebasePhoto,
     StripePhoto,
   ],
-  [ReactPhoto, ReduxPhoto, MongoDBPhoto, MaterialPhoto, ExpressPhoto, NodePhoto],
+  [ReactPhoto, ReduxPhoto, NivoPhoto, MaterialPhoto, ExpressPhoto, NodePhoto],
   [ReactPhoto, TypeScriptPhoto, NextPhoto, TailwindPhoto, SanityPhoto],
   [ReactPhoto, SolidityPhoto, TailwindPhoto, MetaMaskPhoto, EthereumPhoto, VitePhoto],
   [ReactPhoto, NextPhoto, TailwindPhoto, ReduxPhoto, GooglePhoto],
